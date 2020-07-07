@@ -8,6 +8,8 @@ if (JSON.parse(localStorage.getItem('allCars'))){
     
     tableHeader();
     tableContent();
+}else{
+    tableHeader();
 }
 // var model = document.getElementById('carModel');
 // var modelYear = document.getElementById('modelYear');
