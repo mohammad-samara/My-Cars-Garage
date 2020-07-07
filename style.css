@@ -1,0 +1,41 @@
+body{
+    background-image: url(img/page-background.jpg);
+    color: white;
+}
+
+#Form{
+    background-color: rgba(255, 0, 0, 0.411);
+    width: fit-content;
+    margin: 50px;
+    padding: 75px;
+    text-align: center;
+    display: inline-block
+}
+#Form input, #Form select{
+    margin-bottom: 25px;
+}
+
+
+
+#table{
+    background-color: rgba(255, 0, 0, 0.411);
+    width: fit-content;
+    padding: 150px 75px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+#carsTable,#carsTable th ,#carsTable td{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#carsTable td{
+    background-color: gray;
+    padding: 5px 20px;
+}
+#carsTable th{
+    background-color: rgb(39, 37, 37);
+    padding: 5px 20px;
+}
